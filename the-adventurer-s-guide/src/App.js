@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import SignIn from "./components/Products/SingIn";
+import Navbar from "./components/layout/Navbar";
+import SignIn from "./components/auth/SingIn";
 class App extends Component {
   render() {
     return (

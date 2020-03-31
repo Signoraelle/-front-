@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import signedInlinks from "./SingedInLinks";
+import SingedInlinks from "./SingedInLinks";
 
 const NavBar = () => {
   return (
@@ -9,7 +9,7 @@ const NavBar = () => {
         <Link to="/" className="brand-logo">
           Logo
         </Link>
-        {/* <SingedInLinks /> */}
+        <SingedInlinks />
       </div>
     </nav>
   );
